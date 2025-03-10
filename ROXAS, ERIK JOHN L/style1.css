@@ -1,0 +1,75 @@
+
+body, h1, form {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #white; /* Greyish black */
+    font-family: Arial, sans-serif;
+    color: #f4f4f4; /* Light text color for contrast */
+}
+
+/* Style the main heading */
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #800000; /* Light color for the heading */
+}
+
+/* Style the form container */
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #444; 
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Style the labels */
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+/* Style the input fields */
+input[type="text"],
+input[type="password"],
+select {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #555; /* Darker background for input fields */
+    color: #f4f4f4; /* Light text color for input fields */
+}
+
+/* Style the radio buttons and their labels to be inline */
+.gender-label {
+    display: inline-block;
+    margin-right: 10px; /* Space between gender options */
+}
+
+/* Style the button */
+button.register {
+    width: 100%;
+    padding: 10px;
+    background-color: #800000; /* Maroon color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button.register:hover {
+    background-color: #a00000; 
+}
+
+/* Add some spacing for the form elements */
+.container > div {
+    margin-bottom: 15px;
+}
